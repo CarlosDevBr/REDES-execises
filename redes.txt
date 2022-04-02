@@ -1,0 +1,8 @@
+PDU - [transporte]segmento, [rede]pacote, [enlace]quadro, [fisica]bits
+switch : enlace, roteador : rede, hub: fisica, *{switch(l3): rede, switch(l7): aplicação}*
+extensoes de arquivos
+
+application(aplication, presentation, session)
+transport(tcp,udp)
+internet(ipv4,ipv6)
+acesso de rede(enlace = macaddress ,fisica = cabo ethernet, fibra, wireless)
